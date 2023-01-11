@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SVG</title>
+    <style>
+        .shapes{
+            width: 600px;
+            height: 400px;
+            background: #ddd;
+        }
+        rect{
+            fill: orange;
+            stroke: dodgerblue;
+            stroke-width: 5;
+        }
+    </style>
+</head>
+<body>
+    <svg class="shapes">
+        <rect
+            x="10" y="20" width="200" height="100"
+        />
+        <circle 
+            cx="350"
+            cy="250"
+            r="30"
+        />
+        <!-- tag안 inline보다 css가 더 우선순위가 있다. -->
+    </svg>
+</body>
+</html>

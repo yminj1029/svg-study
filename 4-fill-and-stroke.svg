@@ -1,0 +1,24 @@
+<?xml version="1.0" standalone="no"?>
+<svg width="160" height="140" xmlns="http://www.w3.org/2000/svg" version="1.1">
+  <!-- <line x1="40" x2="120" y1="20" y2="20" stroke="black" stroke-width="20" stroke-linecap="butt"/>
+  <line x1="40" x2="120" y1="60" y2="60" stroke="black" stroke-width="20" stroke-linecap="square"/>
+  <line x1="40" x2="120" y1="100" y2="100" stroke="black" stroke-width="20" stroke-linecap="round"/> -->
+
+  <path d="M 10 75 Q 50 10 100 75 T 190 75" stroke="black"
+    stroke-linecap="round" stroke-dasharray="5,10,5" fill="none"/>
+  <path d="M 10 75 L 190 75" stroke="red"
+    stroke-linecap="round" stroke-width="1" stroke-dasharray="5,5" fill="none"/>
+</svg>
+
+<!-- 
+    1. 개체에 속성 정의
+    stroke width : the width of stroke
+    stroke-linecap : 라인을 둘러싼 모양
+        : butt - straight edge, square - butt보다 여유분 있음, round : a rounded effect
+    stroke-linejoin : 라인이 겹치는 부분 모양
+        : round, square, bevel(겹치는 부분에 새 각을 생성)
+    stroke-dasharray : - - - - filled - unfilled 길이
+
+    2. css 스타일 정의
+    fill, stroke, stroke-dasharray 는 css로 변경할 수 있다.
+ -->
